@@ -1,0 +1,16 @@
+.header {
+  background-color: blue;
+  padding: 15px; /* Increased padding for better appearance */
+  text-align: center;
+  width: 100%; /* Ensures the header spans the full width */
+  position: fixed; /* Makes the header fixed at the top */
+  top: 0; /* Positions the header at the top */
+  left: 0; /* Aligns the header to the left */
+  z-index: 1000; /* Ensures the header is above other content */
+}
+
+.header h1 {
+  color: white;
+  margin: 0; /* Removes default margin for better alignment */
+  font-size: 24px; /* Sets a consistent font size */
+}
